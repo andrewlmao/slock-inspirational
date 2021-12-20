@@ -1,2 +1,2 @@
 # slock-inspirational
-simple script for showing inspirational quotes on slock
+simple script for showing inspirational quotes on slock + personal config
