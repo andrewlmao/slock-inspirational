@@ -1,5 +1,5 @@
 # slock-inspirational
-simple script for showing inspirational quotes on slock 
+simple script for showing quotes on shuffle for slock 
 
 # dependencies
 - slock installation with color message patch
@@ -16,4 +16,16 @@ cd slock-inspirational
 ```
 mv slock-inspiration /usr/bin
 ```
-3. insert slock-inspirational into your suspend script
+3. create a directory and file to store quotes
+```
+cd
+mkdir .slock-quotes
+cd .slock-quotes
+mkdir quotes.txt
+```
+4. put your individuals quotes in single lines (use \n if you want a line break)
+ex.
+```
+1      Your never fully dressed without a smile
+```
+5. insert slock-inspirational into your suspend script
