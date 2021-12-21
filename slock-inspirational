@@ -1,0 +1,9 @@
+#!/bin/sh
+
+NUMOFLINES=$(wc -l ~/Documents/quotes.txt | awk '{print $1}'
+)
+CURRENTNUM=$(shuf -i 1-${NUMOFLINES} -n 1)
+CURRENTQUOTE=$(sed -n ${CURRENTNUM}p ~/Documents/quotes.txt)
+systemctl suspend
+slock -m "$(printf "$CURRENTQUOTE")"
+
