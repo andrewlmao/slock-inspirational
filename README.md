@@ -7,8 +7,13 @@ simple script for showing inspirational quotes on slock
 - gnu coreutils 
 
 # installation
-1. copy this script into /usr/bin
+1. clone this repository
+```
+git clone https://github.com/andrewlmao/slock-inspirational.git
+cd slock-inspirational
+```
+2. copy the script ```slock-inspirational``` into /usr/bin
 ```
 mv slock-inspiration /usr/bin
 ```
-2. insert slock-inspirational into your suspend script
+3. insert slock-inspirational into your suspend script
